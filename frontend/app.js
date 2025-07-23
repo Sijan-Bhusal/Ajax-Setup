@@ -7,7 +7,7 @@ form.addEventListener("submit", async (e) => {
 
   const style     = e.submitter.value;           // "nice"  |  "hate"
   const endpoint  = style === "hate" ? "/api/hate" : "/api/greet";
-
+g
   // Build the request body
   const data = { name: nameInput.value };
 
